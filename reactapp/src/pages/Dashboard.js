@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 
@@ -29,12 +29,14 @@ function Dashboard() {
     }
   };
 
+  const ignoreRef = useRef(ignore);
+
   useEffect(() => {
     if (!ignore) {
       getStudents();
     }
     return () => {
-      ignore = true;
+      ignoreRef.current = true;
     };
   }, []);
 
