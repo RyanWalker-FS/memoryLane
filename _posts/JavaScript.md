@@ -4,7 +4,7 @@ excerpt: "JavaScript: Bringing Webpages to Life"
 coverImage: "${basePath}/assets/blog/preview/cover.jpg"
 date: "2025-02-07T05:35:07.322Z"
 author:
-  name: Zack Chrisman
+  name: Walker Ryan
 
 ogImage:
   url: "${basePath}/assets/blog/preview/cover.jpg"
