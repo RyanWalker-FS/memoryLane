@@ -18,7 +18,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 ;
 const CoverImage = ({ title, src, slug })=>{
     const image = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-        src: "./reactNative.jpeg",
+        src: "./auth.jpeg",
         alt: `Cover Image for ${title}`,
         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"])("shadow-sm w-full", {
             "hover:shadow-lg transition-shadow duration-200": slug
@@ -416,7 +416,7 @@ function Index() {
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$_components$2f$intro$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Intro"], {}, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
                     lineNumber: 17,
-                    columnNumber: 5
+                    columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$_components$2f$hero$2d$post$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["HeroPost"], {
                     title: heroPost.title,
@@ -428,25 +428,25 @@ function Index() {
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
                     lineNumber: 18,
-                    columnNumber: 5
+                    columnNumber: 9
                 }, this),
                 morePosts.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$_components$2f$more$2d$stories$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["MoreStories"], {
                     posts: morePosts
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
                     lineNumber: 26,
-                    columnNumber: 30
+                    columnNumber: 34
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/page.tsx",
             lineNumber: 16,
-            columnNumber: 4
+            columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/page.tsx",
         lineNumber: 15,
-        columnNumber: 3
+        columnNumber: 5
     }, this);
 }
 }}),
